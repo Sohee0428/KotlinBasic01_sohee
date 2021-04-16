@@ -44,6 +44,35 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+
+
+//        문법 연습(조건문)
+
+//        나이를 확인해서 -> 성인인지 / 아닌지
+
+        val userAge = 25
+
+        if (userAge >= 20){
+
+            Log.d("성인판별", "성인이 맞습니다.")
+        }
+        else if (userAge >= 17){
+            Log.d("성인판별", "고등학생")
+        }
+        else if(userAge >=14){
+            Log.d("성인판별", "중학생")
+        }
+        else {
+            Log.d("성인판별", "성인이 아닙니다.")
+        }
+
+
+
+
+
+
+
+
     }
 
 }
