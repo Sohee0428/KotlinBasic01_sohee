@@ -14,4 +14,13 @@
         android:text="클릭용 버튼"
         app:layout_constraintTop_toTopOf="parent"/>
 
+    <Button
+        android:id="@+id/smallBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="작은 버튼"
+        app:layout_constraintTop_toBottomOf="@id/clickBtn"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
