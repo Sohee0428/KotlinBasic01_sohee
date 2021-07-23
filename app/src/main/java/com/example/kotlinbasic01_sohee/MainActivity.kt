@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
 //        문법 연습 (변수)
 
 //        변수 만들기
@@ -18,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         var myAge : Int  // variable : 변수
 
 
-        val myName1 = "권소희" // 변수 생성 + 대입 => 변수의 초기화
+        val myName1 = "5ohee" // 변수 생성 + 대입 => 변수의 초기화
 
         Log.d("변수값", myName1)
 
