@@ -23,6 +23,36 @@ class Test1 : AppCompatActivity() {
 
 
 
+        val myName : String
+        var myAge : Int
+
+        myName = "sohee"
+//        myName = "hi"
+
+        myAge = 24
+        myAge = 25
+
+        val myName1 = "sohee"
+
+        Log.d("나의 이름", myName)
+
+        
+        val userAge = 25
+        
+        if (userAge>= 20){
+            Log.d("성인 판별","성인입니다.")
+        }
+        else if (userAge >= 17) {
+            Log.d("성인 판별","고등학생입니다.")
+        }
+        else if (userAge >= 14) {
+            Log.d("성인 판별","중학생입니다.")
+        }
+        else{
+            Log.d("성인 판별","성인이 아닙니다.")
+        }
+        
+
     }
 
 
